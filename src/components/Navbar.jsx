@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
 import NCdesign from '../assets/images/NC design & development-logos_white.png'
 
 const Menu = () => (
@@ -19,6 +20,14 @@ const Navbar = () => {
                 <ul className='top_nav'>
                     <Menu />
                 </ul>
+            </nav>
+            <nav className="navbar_menu scale-up-center">
+                {menu ? <RiCloseLine color="#fff" size={27} onClick={() => setMenu(false)} /> : <RiMenu3Line color="#fff" size={27} onClick={() => setMenu(true)} />}
+                {menu && (
+                    <div className="mobile_menu">
+                        <Menu />
+                    </div>
+                )}
             </nav>
         </div>
     )
