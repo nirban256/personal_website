@@ -4,16 +4,41 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+:root{
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+}
+
 body{
   background: #040C18;
 }
 
 a{
   text-decoration: none;
+  color: white;
 }
 
 li{
   list-style-type: none;
+  padding: 0 1rem 0 1rem;
+}
+
+.gradient_bg{
+  background: radial-gradient(circle at 3% 25%,#002853 0,#040c18 100%);
+}
+
+.gradient_text{
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text_color{
+  color: #81afdd;
 }
 
 .scale-up-center {

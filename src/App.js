@@ -1,11 +1,16 @@
 import React from "react";
 import './App.css'
-import { Navbar } from './components'
+import { Navbar, Header, About, Skills } from './components'
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div>
+      <div className="container gradient_bg">
+        <Navbar />
+        <Header />
+      </div>
+      <About />
+      <Skills />
     </div>
   );
 }

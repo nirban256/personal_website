@@ -15,7 +15,7 @@ const Navbar = () => {
     const [menu, setMenu] = useState('false');
     return (
         <div className='navbar'>
-            <img src={NCdesign} alt="logo" height={120} width={120} />
+            <img src={NCdesign} alt="logo" className='main_logo' />
             <nav>
                 <ul className='top_nav'>
                     <Menu />
