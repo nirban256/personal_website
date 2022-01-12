@@ -2,7 +2,7 @@ import React from "react";
 
 const Projects = () => {
     return (
-        <h1>hello</h1>
+        <h1>hi!</h1>
     )
 }
 
