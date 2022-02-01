@@ -1,0 +1,15 @@
+@import './styles/layout';
+@import './styles/typography';
+@import './styles/navbar';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #a4acc4;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 1.2rem;
+}

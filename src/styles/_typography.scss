@@ -1,0 +1,27 @@
+.Homepage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+
+    .hero{
+        p{
+            text-align: center;
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.hero-heading{
+    color: #fff;
+    text-align: center;
+    font-size: 3.6rem;
+    span{
+        color: #037fff;
+    }
+}

@@ -1,18 +1,24 @@
 import React from "react";
-import './App.css'
-import { Navbar, Header, About, Skills, Projects, Contact } from './components'
+import "./App.scss";
+import Navbar from "./components/Navbar";
+import AboutPage from "./pages/AboutPage";
+import Homepage from "./pages/Homepage";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
-      <div className="container gradient_bg">
+    <div className="App">
+      <div className="side-bar">
         <Navbar />
-        <Header />
       </div>
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <div className="main-content">
+        <div className="content">
+          <Routes>
+            <Route path="/" exact element={<Homepage />} />
+            <Route path="/about" exact element={<AboutPage />} />
+          </Routes>
+        </div>
+      </div>
     </div>
   );
 }

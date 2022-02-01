@@ -1,69 +1,153 @@
-*{
+.App .side-bar {
+  width: 16%;
+  height: 100vh;
+  background-color: #191d2b;
+  position: fixed;
+  border-right: 2px solid #2e344e;
+}
+
+.App .main-content {
+  width: 84%;
+  margin-left: 16%;
+  background-color: #10121b;
+  min-height: 100vh;
+  background-image: url("../images/dots.svg");
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+}
+
+.Homepage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.Homepage .hero p {
+  text-align: center;
+}
+
+.Homepage .hero p a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.hero-heading {
+  color: #fff;
+  text-align: center;
+  font-size: 3.6rem;
+}
+
+.hero-heading span {
+  color: #037fff;
+}
+
+.Navbar {
+  height: 100vh;
+}
+
+.Navbar .links {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Navbar .links .profile {
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+  border-bottom: 1px solid #2e344e;
+}
+
+.Navbar .links .profile img {
+  width: 70%;
+  border-radius: 100%;
+  border: 5px solid #2e344e;
+  margin-bottom: 1rem;
+}
+
+.Navbar .links .nav-items {
+  width: 100%;
+}
+
+.Navbar .links .nav-items .nav-item {
+  list-style-type: none;
+  text-align: center;
+}
+
+.Navbar .links .nav-items .nav-item a {
+  text-decoration: none;
+  font-size: inherit;
+  color: inherit;
+  display: block;
+  padding: 0.7rem 0;
+  position: relative;
+}
+
+.Navbar .links .nav-items .nav-item a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.4rem;
+  height: 100%;
+  background-color: #0381ff33;
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  overflow-x: hidden;
+  -webkit-transition: 0.2s width 0.5s, cubic-bezier(0, 1.76, 0.64, 1.25), -webkit-transform 0.6s;
+  transition: 0.2s width 0.5s, cubic-bezier(0, 1.76, 0.64, 1.25), -webkit-transform 0.6s;
+  transition: transform 0.6s, 0.2s width 0.5s, cubic-bezier(0, 1.76, 0.64, 1.25);
+  transition: transform 0.6s, 0.2s width 0.5s, cubic-bezier(0, 1.76, 0.64, 1.25), -webkit-transform 0.6s;
+}
+
+.Navbar .links .nav-items .nav-item a:hover::before {
+  width: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.Navbar .links .footer {
+  width: 100%;
+  border-top: 1px solid #2e344e;
+}
+
+.Navbar .links .footer p {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.active {
+  background-color: #037fff;
+}
+
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-html{
-  scroll-behavior: smooth;
+body {
+  color: #a4acc4;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1.2rem;
 }
-
-:root{
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
-}
-
-body{
-  background: #040C18;
-}
-
-a{
-  text-decoration: none;
-  color: white;
-}
-
-li{
-  list-style-type: none;
-  padding: 0 1rem 0 1rem;
-}
-
-.gradient_bg{
-  background: radial-gradient(circle at 3% 25%,#002853 0,#040c18 100%);
-}
-
-.gradient_text{
-  background: var(--gradient-text);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.text_color{
-  color: #81afdd;
-}
-
-.scale-up-center {
-	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
-@-webkit-keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
-@keyframes scale-up-center {
-  0% {
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
+/*# sourceMappingURL=App.css.map */
