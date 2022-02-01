@@ -1,0 +1,95 @@
+.ContactItem{
+    width: 100%;
+    &:not(:last-child){
+        margin-bottom: 1rem;
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        background-color: #191d2b;
+        padding: 3rem 0;
+        .right-items{
+            margin-left: 2rem;
+        }
+        img{
+            padding: 1rem;
+            border: 1px solid #037fff;
+            margin-left: 2rem;
+            width: 16%;
+        }
+        .right-items{
+            h6{
+                font-size: 1.4rem;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.ContactPage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 6rem;
+    .contact-sect{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.map-sect{
+    width: 97%;
+    padding: 2rem;
+    background-color: #191d2b;
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.title{
+    margin-bottom: 4rem;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #037fff;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    padding: 0 2rem;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip:hover{
+    cursor: pointer;
+}
+
+.Title{
+    margin-bottom: 4rem;
+}

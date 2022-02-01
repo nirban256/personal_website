@@ -15,5 +15,9 @@
         background-image: url('../images/dots.svg');
         display: grid;
         position: relative;
+        
+        .content{
+            margin: 5rem 10rem;
+        }
     }
 }

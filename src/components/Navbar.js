@@ -11,22 +11,22 @@ const Navbar = () => {
                 </div>
                 <ul className="nav-items">
                     <li className="nav-item">
-                        <NavLink to="/" exact activeClassName="active">
+                        <NavLink exact to="/" activeclassname="active">
                             Home
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/about" exact activeClassName="active">
+                        <NavLink exact to="/about" activeclassname="active">
                             About
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/portfolio" exact activeClassName="active">
-                            Portfolio
+                        <NavLink exact to="/project" activeclassname="active">
+                            Projects
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/contact" exact activeClassName="active">
+                        <NavLink exact to="/contact" activeclassname="active">
                             Contact
                         </NavLink>
                     </li>
