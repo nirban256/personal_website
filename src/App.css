@@ -352,6 +352,96 @@ h3 {
   opacity: 0.07;
 }
 
+.projects {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+}
+
+.projects .project .image-data {
+  position: relative;
+}
+
+.projects .project .image-data::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: calc(100% - 5px);
+  width: 100%;
+  background-color: #51769b71;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.4s ease-in-out 0.2s;
+  transition: all 0.4s ease-in-out 0.2s;
+  opacity: 0.8;
+}
+
+.projects .project .image-data:hover::before {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.projects .project .image-data img {
+  width: 100%;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projects .project .image-data .hover-items {
+  list-style: none;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -90%);
+          transform: translate(-50%, -90%);
+  padding: 1rem 2rem;
+}
+
+.projects .project .image-data .hover-items:hover .hover-items {
+  display: block;
+  top: 50%;
+  -webkit-transition: all 0.5s ease-in-out 0.2s;
+  transition: all 0.5s ease-in-out 0.2s;
+}
+
+.projects .project .image-data .hover-items li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projects .project .image-data .hover-items li a {
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+.projects .project .image-data .hover-items li a:hover {
+  color: #037fff;
+}
+
+.projects .project h5 {
+  font-size: 1.7rem;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.projects .project h5:hover {
+  color: #037fff;
+}
+
 .ContactItem {
   width: 100%;
 }
