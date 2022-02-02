@@ -5,6 +5,9 @@
         background-color: #191d2b;
         position: fixed;
         border-right: 2px solid #2e344e;
+        @media screen and (max-width: 1000px) {
+            transform: translateX(-100%);
+        }
     }
 
     .main-content{
@@ -15,9 +18,12 @@
         background-image: url('../images/dots.svg');
         display: grid;
         position: relative;
-        
         .content{
             margin: 5rem 10rem;
+        }
+        @media screen and (max-width: 1000px) {
+            margin-left: 0;
+            width: 100%;
         }
     }
 }

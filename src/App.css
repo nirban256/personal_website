@@ -6,6 +6,13 @@
   border-right: 2px solid #2e344e;
 }
 
+@media screen and (max-width: 1000px) {
+  .App .side-bar {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
 .App .main-content {
   width: 84%;
   margin-left: 16%;
@@ -19,6 +26,13 @@
 
 .App .main-content .content {
   margin: 5rem 10rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .App .main-content {
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 .ImageSection {
@@ -264,6 +278,7 @@ h3 {
 .Navbar .links .nav-items .nav-item {
   list-style-type: none;
   text-align: center;
+  padding: 1rem 0;
 }
 
 .Navbar .links .nav-items .nav-item a {
@@ -425,6 +440,7 @@ h3 {
 .projects .project .image-data .hover-items li a {
   padding: 0 1rem;
   text-decoration: none;
+  font-family: inherit;
 }
 
 .projects .project .image-data .hover-items li a:hover {
@@ -440,6 +456,47 @@ h3 {
 
 .projects .project h5:hover {
   color: #037fff;
+}
+
+/* Categories buttons */
+.btn-port {
+  padding: 0.6rem 2rem;
+  background-color: #0381ff50;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  color: #fff;
+  margin-bottom: 1rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-port:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.btn-port:hover {
+  background-color: #037fff;
+}
+
+.btn-port:focus {
+  background-color: #037fff;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .ContactItem {
@@ -527,7 +584,7 @@ a {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
-  padding: 0 2rem;
+  padding: 2rem 2rem;
 }
 
 .tooltip .tooltiptext {

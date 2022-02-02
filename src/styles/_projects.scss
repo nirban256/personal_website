@@ -48,6 +48,7 @@
                     a{
                         padding: 0 1rem;
                         text-decoration: none;
+                        font-family: inherit;
                         &:hover{
                             color: #037fff;
                         }
@@ -64,4 +65,34 @@
             }
         }
     }
+}
+
+/* Categories buttons */
+.btn-port{
+    padding: 0.6rem 2rem;
+    background-color: #0381ff50;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    color: #fff;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+    &:not(:last-child){
+        margin-right: 1rem;
+    }
+    &:hover{
+        background-color: #037fff;
+    }
+    &:focus{
+        background-color: #037fff;
+    }
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
