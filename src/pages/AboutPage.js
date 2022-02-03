@@ -7,7 +7,7 @@ import design from '../images/design.svg';
 
 const AboutPage = () => {
     return (
-        <div>
+        <div className='AboutPage'>
             <Title title={'About Me'} span={'About Me'} />
             <ImageSection />
             <Title title={'My Skills'} span={'My Skills'} />
