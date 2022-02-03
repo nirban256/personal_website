@@ -7,7 +7,7 @@ import projects from '../components/AllProjects';
 const allCategories = ['All', ...new Set(projects.map(item => item.category))];
 
 const ProjectsPage = () => {
-    const [categories, setCategories] = useState(allCategories);
+    const [categories,] = useState(allCategories);
     const [menu, setMenu] = useState(projects);
 
     const filter = (category) => {
