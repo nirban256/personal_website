@@ -10,7 +10,7 @@ import { FaGithubSquare, FaCode } from 'react-icons/fa';
 const projects = [
     {
         id: 1,
-        category: 'Html, Css Only',
+        category: 'Html & Css',
         link1: 'https://nirban256.github.io/mockup-website/',
         link2: 'https://github.com/nirban256/mockup-website',
         icon1: <FaCode size={42} color='white' />,

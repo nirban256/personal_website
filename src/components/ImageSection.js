@@ -8,7 +8,6 @@ const ImageSection = () => {
                 <img src={fire} alt="profile img" />
             </div>
             <div className="about-info">
-                <h4>I am <span> Nirban Chakraborty</span>.</h4>
                 <p className='about-text'>
                     I am a Frontend Developer, a web designer from West Bengal, India. I am studying my Bachelor's in Commputer Application from Siliguri College while looking for opportunities in the field of Web development. Currently I am learning Solidity and Web3 in order to become a full stack block chain developer.
                 </p>

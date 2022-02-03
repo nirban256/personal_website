@@ -20,7 +20,7 @@ const ContactPage = () => {
                     <ContactItem icon={location} text={'Siliguri, West Bengal, India'} title={'Location'} />
                 </div>
             </div>
-            <Title title={'My socials'} span={'My socials'} />
+            <Title title={'My socials'} span={'Socials'} />
             <div className="icons">
                 <li className='tooltip'>
                     <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/nirban-chakraborty-382778191/">

@@ -37,3 +37,15 @@ body{
 span{
     color: #037fff;
 }
+
+@media screen and (max-width: 500px) {
+    html{
+        font-size: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    html{
+        font-size: 90%;
+    }
+}

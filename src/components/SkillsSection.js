@@ -10,7 +10,7 @@ const SkillsSection = () => {
                     <h3>Languages</h3>
                     <ul>
                         <li className='icons tooltip'>
-                            <FaHtml5 size={42} />
+                            <FaHtml5 size={42} className='icon' />
                             <span className="tooltiptext">Html5</span>
                         </li>
                         <li className='icons tooltip'>
