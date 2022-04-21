@@ -5,6 +5,8 @@ import port4 from '../images/react.jpg';
 import port5 from '../images/dark-theme.jpg';
 import port6 from '../images/clone.jpg';
 import port7 from '../images/landing_page.jpg';
+import port8 from '../images/nft-game.png';
+import port9 from '../images/nft.jpg';
 import { FaGithubSquare, FaCode } from 'react-icons/fa';
 
 const projects = [
@@ -84,6 +86,28 @@ const projects = [
         image: port6,
         title: 'Microsoft Web page Clone',
         description: 'A clone of the homepage of Microsoft'
+    },
+    {
+        id: 8,
+        category: 'Web3',
+        link1: 'https://gck8sdx9taib.usemoralis.com/',
+        link2: 'https://github.com/nirban256/Car_Slayer-NFT-Game',
+        icon1: <FaCode size={42} color='white' />,
+        icon2: <FaGithubSquare size={42} color='white' />,
+        image: port8,
+        title: 'NFT Game - Car Slayer',
+        description: 'A NFT based game made using Solidity and ReactJs'
+    },
+    {
+        id: 9,
+        category: 'Web3',
+        link1: 'https://rw2lijq0uwyh.usemoralis.com/',
+        link2: 'https://github.com/nirban256/nft-minting',
+        icon1: <FaCode size={42} color='white' />,
+        icon2: <FaGithubSquare size={42} color='white' />,
+        image: port9,
+        title: 'NFT Minting Site',
+        description: 'A NFT Minting website made with Solidity and ReactJs'
     }
 ]
 
