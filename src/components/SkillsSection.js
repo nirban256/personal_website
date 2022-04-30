@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaJava, FaDollarSign, FaPython, FaSass, FaBootstrap, FaReact, FaFigma, FaLinux, FaUbuntu } from 'react-icons/fa';
-import { SiC, SiGimp, SiAdobeillustrator, SiWindows } from 'react-icons/si';
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaJava,  FaSass, FaBootstrap, FaReact, FaFigma, FaUbuntu, FaHardHat } from 'react-icons/fa';
+import { SiC, SiGimp, SiAdobeillustrator, SiWindows, SiSolidity, SiTailwindcss, SiWeb3Dotjs } from 'react-icons/si';
 
 const SkillsSection = () => {
     return (
@@ -30,12 +30,30 @@ const SkillsSection = () => {
                             <span className="tooltiptext">Java</span>
                         </li>
                         <li className='icons tooltip'>
-                            <FaDollarSign size={42} />
-                            <span className="tooltiptext">Shellscript</span>
+                            <SiSolidity size={42} />
+                            <span className="tooltiptext">Solidity</span>
+                        </li>
+                    </ul>
+                </div>
+                <div className="js-frameworks">
+                    <h3>Web3 Frameworks</h3>
+                    <ul>
+                        <li className='icons tooltip'>
+                            <FaHardHat size={42} />
+                            <span className="tooltiptext">HardHat</span>
                         </li>
                         <li className='icons tooltip'>
-                            <FaPython size={42} />
-                            <span className="tooltiptext">Python</span>
+                            <SiWeb3Dotjs size={42} />
+                            <span className="tooltiptext">Web3.js</span>
+                        </li>
+                    </ul>
+                </div>
+                <div className="js-frameworks">
+                    <h3>JavaScript Frameworks</h3>
+                    <ul>
+                        <li className='icons tooltip'>
+                            <FaReact size={42} />
+                            <span className="tooltiptext">ReactJs</span>
                         </li>
                     </ul>
                 </div>
@@ -50,14 +68,9 @@ const SkillsSection = () => {
                             <FaBootstrap size={42} />
                             <span className="tooltiptext">BootStrap</span>
                         </li>
-                    </ul>
-                </div>
-                <div className="js-frameworks">
-                    <h3>JavaScript Frameworks</h3>
-                    <ul>
                         <li className='icons tooltip'>
-                            <FaReact size={42} />
-                            <span className="tooltiptext">ReactJs</span>
+                            <SiTailwindcss size={42} />
+                            <span className="tooltiptext">Tailwind Css</span>
                         </li>
                     </ul>
                 </div>
@@ -84,10 +97,6 @@ const SkillsSection = () => {
                         <li className='icons tooltip'>
                             <SiWindows size={42} />
                             <span className="tooltiptext">Windows</span>
-                        </li>
-                        <li className='icons tooltip'>
-                            <FaLinux size={42} />
-                            <span className="tooltiptext">Linux</span>
                         </li>
                         <li className="icons tooltip">
                             <FaUbuntu size={42} />

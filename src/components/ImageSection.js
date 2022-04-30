@@ -29,7 +29,7 @@ const ImageSection = () => {
                     </div>
                 </div>
                 <button className="btn">
-                    <a href="https://drive.google.com/file/d/1tS_q6LO8UHGkLraCVKyoz4i8CMUDToW-/view?usp=sharing" target="_blank" rel="noreferrer">Download CV</a>
+                    <a href="https://drive.google.com/file/d/1OKYicOq2gJ0qIZ_wQ7WXlkNmy51l5Cx1/view?usp=sharing" target="_blank" rel="noreferrer">Download CV</a>
                 </button>
             </div>
         </div>
