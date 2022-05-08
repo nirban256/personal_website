@@ -12,10 +12,10 @@ const AboutPage = () => {
             <ImageSection />
             <Title title={'My Skills'} span={'My Skills'} />
             <SkillsSection />
-            <Title title={'Services'} span={'Services'} />
+            <Title title={'Work'} span={'Work'} />
             <div className="services-container">
-                <ServicesSection image={design} title="Web Developer" text={'I create modern responsive websites with animations, hover effects and much more using latest web development tools and languages.'} />
-                <ServicesSection image={design} title="Web Designer" text={'I design modern responsive websites with animations, hover effects and much more using latest web design tools and techniques.'} />
+                <ServicesSection image={design} title="Blockchain Developer" text={'I build Decentralized applications with Solidity for the programming language of smart contracts and ReactJs for my Frontend of the application in different ecosystems like Ethereum, Polygon and Avalanche.'} />
+                <ServicesSection image={design} title="Frontend Web Developer" text={'I create modern responsive websites with animations, hover effects and much more using latest web development tools and languages.'} />
             </div>
         </div>
     );
