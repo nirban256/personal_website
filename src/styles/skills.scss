@@ -1,22 +1,21 @@
-.skill-container{
+.skill-container {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
-ul{
-    li{
+ul {
+    li {
         list-style-type: none;
         padding: 1rem 2rem;
     }
 }
 
-h3{
+h3 {
     color: #fff;
 }
 
-.icons:hover{
+.icons:hover {
     cursor: pointer;
-    color: #037fff;
 }
 
 .tooltip {
@@ -24,7 +23,7 @@ h3{
     display: inline-block;
     border-bottom: 1px dotted black;
 }
-  
+
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
@@ -33,12 +32,12 @@ h3{
     text-align: center;
     border-radius: 6px;
     padding: 3px 0;
-  
+
     /* Position the tooltip */
     position: absolute;
     z-index: 1;
 }
-  
+
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
