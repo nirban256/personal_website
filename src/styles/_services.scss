@@ -1,10 +1,11 @@
-.ServicesSection{
+.ServicesSection {
     @media screen and (max-width: 800px) {
-        &:not(:last-child){
+        &:not(:last-child) {
             margin-bottom: 2rem;
         }
     }
-    .service{
+
+    .service {
         width: 95%;
         background-color: #191d2b;
         border-left: 1px solid #2e344e;
@@ -12,22 +13,28 @@
         border-bottom: 1px solid #2e344e;
         border-top: 8px solid #2e344e;
         transition: all .4s ease-in-out;
+
         @media screen and (max-width: 800px) {
             flex-direction: column;
             width: 100%;
         }
-        &:hover{
+
+        &:hover {
             border-top: 8px solid #037FFF;
         }
-        .service-content{
+
+        .service-content {
             padding: 1rem;
-            .s-title{
+
+            .s-title {
+                color: #037FFF;
                 font-size: 1.6rem;
                 font-weight: 500;
                 position: relative;
                 padding-bottom: 1rem;
                 margin: 1rem 0;
-                &::after{
+
+                &::after {
                     content: "";
                     position: absolute;
                     bottom: 0;
@@ -41,10 +48,11 @@
     }
 }
 
-.services-container{
+.services-container {
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
+
     @media screen and (max-width: 800px) {
         flex-direction: column;
         margin-bottom: 2rem;

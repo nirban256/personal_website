@@ -277,6 +277,7 @@ h3 {
 }
 
 .ServicesSection .service .service-content .s-title {
+  color: #037FFF;
   font-size: 1.6rem;
   font-weight: 500;
   position: relative;
@@ -502,6 +503,11 @@ h3 {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.projects .project {
+  border: 1px #0381ff50 solid;
+  padding: 5px;
 }
 
 .projects .project .image-data {

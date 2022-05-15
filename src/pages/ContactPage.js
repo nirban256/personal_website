@@ -16,7 +16,7 @@ const ContactPage = () => {
                     <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3564.508701378012!2d88.43786016431935!3d26.696191025805923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e441803cc366dd%3A0xc1387363106dfa78!2sBhaktinagar%2C%20Dabgram%2C%20Siliguri%2C%20West%20Bengal%20734004!5e0!3m2!1sen!2sin!4v1643739575872!5m2!1sen!2sin" width="600" height="450" style={{ border: 0 }} allowFullScreen="" aria-hidden="false" tabIndex="0" loading="lazy"></iframe>
                 </div>
                 <div className="contact-sect">
-                    <ContactItem icon={email} text={'crypt2543@gmail.com'} title={'Email'} />
+                    <ContactItem icon={email} text={'nirban256@gmail.com'} title={'Email'} />
                     <ContactItem icon={location} text={'Siliguri, West Bengal, India'} title={'Location'} />
                 </div>
             </div>
