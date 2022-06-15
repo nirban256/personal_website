@@ -103,7 +103,7 @@ const projects = [
         category: 'Web3',
         link1: '',
         link2: 'https://github.com/nirban256/nft-minting',
-        icon1: <FaCode size={42} color='white' />,
+        icon1: '',
         icon2: <FaGithubSquare size={42} color='white' />,
         image: port9,
         title: 'NFT Minting Site',
