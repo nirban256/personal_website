@@ -7,6 +7,7 @@ import port6 from '../images/clone.jpg';
 import port7 from '../images/landing_page.jpg';
 import port8 from '../images/nft-game.png';
 import port9 from '../images/nft.jpg';
+import port10 from '../images/browser.png';
 import { FaGithubSquare, FaCode } from 'react-icons/fa';
 
 const projects = [
@@ -108,6 +109,17 @@ const projects = [
         image: port9,
         title: 'NFT Minting Site',
         description: 'A NFT Minting website made with Solidity and ReactJs'
+    },
+    {
+        id: 10,
+        category: 'React Js',
+        link1: 'https://goggle-clone-by-nirban.netlify.app/',
+        link2: 'https://github.com/nirban256/goggle-search-app',
+        icon1: <FaCode size={42} color='white' />,
+        icon2: <FaGithubSquare size={42} color='white' />,
+        image: port10,
+        title: 'Google Search Clone',
+        description: 'A Google Search Clone using ReactJs and Google Search Api'
     }
 ]
 
