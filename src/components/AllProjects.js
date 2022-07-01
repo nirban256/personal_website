@@ -14,7 +14,7 @@ const projects = [
     {
         id: 1,
         category: 'Html & Css',
-        link1: 'https://nirban256.github.io/mockup-website/',
+        link1: 'https://mockup-website-nirban256.netlify.app/',
         link2: 'https://github.com/nirban256/mockup-website',
         icon1: <FaCode size={42} color='white' />,
         icon2: <FaGithubSquare size={42} color='white' />,
@@ -25,7 +25,7 @@ const projects = [
     {
         id: 2,
         category: 'Sass',
-        link1: 'https://nirban256.github.io/Huddle-landing-page-curved-section/',
+        link1: 'https://huddle-page-nirban256.netlify.app/',
         link2: 'https://github.com/nirban256/Huddle-landing-page-curved-section',
         icon1: <FaCode size={42} color='white' />,
         icon2: <FaGithubSquare size={42} color='white' />,
@@ -36,7 +36,7 @@ const projects = [
     {
         id: 3,
         category: 'BootStrap',
-        link1: 'https://nirban256.github.io/Bootstrap-website/',
+        link1: 'https://nirban256-bootsap-website.netlify.app/',
         link2: 'https://github.com/nirban256/Bootstrap-website',
         icon1: <FaCode size={42} color='white' />,
         icon2: <FaGithubSquare size={42} color='white' />,
@@ -47,7 +47,7 @@ const projects = [
     {
         id: 4,
         category: 'Css',
-        link1: 'https://nirban256.github.io/fylo-dark-theme-layout/',
+        link1: 'https://genuine-sable-f52f8f.netlify.app/',
         link2: 'https://github.com/nirban256/fylo-dark-theme-layout',
         icon1: <FaCode size={42} color='white' />,
         icon2: <FaGithubSquare size={42} color='white' />,
@@ -69,7 +69,7 @@ const projects = [
     {
         id: 6,
         category: 'Css',
-        link1: 'https://nirban256.github.io/huddle-single-introductory-section/',
+        link1: 'https://gentle-heliotrope-ff8396.netlify.app/',
         link2: 'https://github.com/nirban256/huddle-single-introductory-section',
         icon1: <FaCode size={42} color='white' />,
         icon2: <FaGithubSquare size={42} color='white' />,
@@ -80,7 +80,7 @@ const projects = [
     {
         id: 7,
         category: 'JavaScript',
-        link1: 'https://nirban256.github.io/Microsoft-clone-page/',
+        link1: 'https://microsoft-webpage-clone.netlify.app/',
         link2: 'https://github.com/nirban256/Microsoft-clone-page',
         icon1: <FaCode size={42} color='white' />,
         icon2: <FaGithubSquare size={42} color='white' />,
