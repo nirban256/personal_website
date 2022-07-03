@@ -8,6 +8,7 @@ import port7 from '../images/landing_page.jpg';
 import port8 from '../images/nft-game.png';
 import port9 from '../images/nft.jpg';
 import port10 from '../images/browser.png';
+import port11 from '../images/github-profile-search.png';
 import { FaGithubSquare, FaCode } from 'react-icons/fa';
 
 const projects = [
@@ -120,6 +121,17 @@ const projects = [
         image: port10,
         title: 'Google Search Clone',
         description: 'A Google Search Clone using ReactJs and Google Search Api'
+    },
+    {
+        id: 11,
+        category: 'React Js',
+        link1: 'https://github-profile-search-by-nirban.netlify.app/',
+        link2: 'https://github.com/nirban256/github-profile-search',
+        icon1: <FaCode size={42} color='white' />,
+        icon2: <FaGithubSquare size={42} color='white' />,
+        image: port11,
+        title: 'Github profile search',
+        description: 'An application made using Github Api for searching Github profiles'
     }
 ]
 
