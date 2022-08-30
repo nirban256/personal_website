@@ -9,7 +9,7 @@ const ImageSection = () => {
             </div>
             <div className="about-info">
                 <p className='about-text'>
-                    I am a Frontend Developer, a web designer from West Bengal, India. I am studying my Bachelor's in Commputer Application from Siliguri College while looking for opportunities in the field of Web development. Currently I am learning Solidity and Web3 in order to become a full stack block chain developer.
+                    I am a Frontend Web3 Developer from West Bengal, India. I am studying my Bachelor's in Commputer Application from Siliguri College while looking for opportunities in the field of Web development. Currently I am learning Solidity and Web3 in order to become a full stack block chain developer.
                 </p>
 
                 <div className="about-details">
@@ -29,7 +29,7 @@ const ImageSection = () => {
                     </div>
                 </div>
                 <button className="btn">
-                    <a href="https://drive.google.com/file/d/15H1yHbzfnztAojqtTd6ThuYrIijnLC5Y/view?usp=sharing" target="_blank" rel="noreferrer">Download Resume</a>
+                    <a href="https://rxresu.me/nirban256/myresume" target="_blank" rel="noreferrer">My Resume</a>
                 </button>
             </div>
         </div>
