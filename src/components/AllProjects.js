@@ -9,6 +9,7 @@ import port8 from '../images/nft-game.png';
 import port9 from '../images/nft.jpg';
 import port10 from '../images/browser.png';
 import port11 from '../images/github-profile-search.png';
+import port12 from '../images/stakify.png';
 import { FaGithubSquare, FaCode } from 'react-icons/fa';
 
 const projects = [
@@ -132,7 +133,18 @@ const projects = [
         image: port11,
         title: 'Github profile search',
         description: 'An application made using Github Api for searching Github profiles'
-    }
+    },
+    {
+        id: 12,
+        category: 'Web3',
+        link1: 'https://tpzuf9bgvjpl.usemoralis.com/',
+        link2: 'https://github.com/nirban256/Stakify',
+        icon1: <FaCode size={42} color='white' />,
+        icon2: <FaGithubSquare size={42} color='white' />,
+        image: port12,
+        title: 'Crypto Staking App',
+        description: 'A one stop application where you can stake for a specific period of time to get rewards'
+    },
 ]
 
 export default projects;
