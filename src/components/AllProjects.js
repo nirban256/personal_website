@@ -3,7 +3,7 @@ import port2 from '../images/responsive.jpg';
 import port3 from '../images/javascript.jpg';
 import port4 from '../images/react.jpg';
 import port5 from '../images/dark-theme.jpg';
-import port6 from '../images/clone.jpg';
+import port6 from '../images/todo.jpg';
 import port7 from '../images/landing_page.jpg';
 import port8 from '../images/nft-game.png';
 import port9 from '../images/nft.jpg';
@@ -81,19 +81,8 @@ const projects = [
     },
     {
         id: 7,
-        category: 'JavaScript',
-        link1: 'https://microsoft-webpage-clone.netlify.app/',
-        link2: 'https://github.com/nirban256/Microsoft-clone-page',
-        icon1: <FaCode size={42} color='white' />,
-        icon2: <FaGithubSquare size={42} color='white' />,
-        image: port6,
-        title: 'Microsoft Web page Clone',
-        description: 'A clone of the homepage of Microsoft'
-    },
-    {
-        id: 8,
         category: 'Web3',
-        link1: 'https://gck8sdx9taib.usemoralis.com/',
+        link1: 'https://car-slayer.vercel.app/',
         link2: 'https://github.com/nirban256/Car_Slayer-NFT-Game',
         icon1: <FaCode size={42} color='white' />,
         icon2: <FaGithubSquare size={42} color='white' />,
@@ -102,18 +91,18 @@ const projects = [
         description: 'A NFT based game made using Solidity and ReactJs'
     },
     {
-        id: 9,
+        id: 8,
         category: 'Web3',
-        link1: '',
+        link1: 'https://nft-minting-kappa.vercel.app/',
         link2: 'https://github.com/nirban256/nft-minting',
-        icon1: '',
+        icon1: <FaCode size={42} color='white' />,
         icon2: <FaGithubSquare size={42} color='white' />,
         image: port9,
         title: 'NFT Minting Site',
         description: 'A NFT Minting website made with Solidity and ReactJs'
     },
     {
-        id: 10,
+        id: 9,
         category: 'React Js',
         link1: 'https://goggle-clone-by-nirban.netlify.app/',
         link2: 'https://github.com/nirban256/goggle-search-app',
@@ -124,7 +113,7 @@ const projects = [
         description: 'A Google Search Clone using ReactJs and Google Search Api'
     },
     {
-        id: 11,
+        id: 10,
         category: 'React Js',
         link1: 'https://github-profile-search-by-nirban.netlify.app/',
         link2: 'https://github.com/nirban256/github-profile-search',
@@ -135,9 +124,20 @@ const projects = [
         description: 'An application made using Github Api for searching Github profiles'
     },
     {
+        id: 11,
+        category: 'Web3',
+        link1: 'https://web3-todo-app-one.vercel.app/',
+        link2: 'https://github.com/nirban256/web3-todo',
+        icon1: <FaCode size={42} color='white' />,
+        icon2: <FaGithubSquare size={42} color='white' />,
+        image: port6,
+        title: 'Web3 Todo App',
+        description: 'A todo app on the polygon testnet'
+    },
+    {
         id: 12,
         category: 'Web3',
-        link1: 'https://tpzuf9bgvjpl.usemoralis.com/',
+        link1: 'https://stakify-rose.vercel.app/',
         link2: 'https://github.com/nirban256/Stakify',
         icon1: <FaCode size={42} color='white' />,
         icon2: <FaGithubSquare size={42} color='white' />,
