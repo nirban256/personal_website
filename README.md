@@ -1,8 +1,6 @@
 # My personal portfolio website
 
-This is my personal portfolio website made with ReactJs, JavaScript, Sass and HTML5.
-
-Check out the live site here - [https://nirban-chakraborty.netlify.app/]
+This is my personal portfolio website made with ReactJs, JavaScript and HTML5.
 
 ## Getting Started with Create React App
 
