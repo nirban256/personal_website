@@ -76,7 +76,7 @@ export const projects = [
         des: "A blockchain-based NFT game where players can buy, sell, and trade car NFTs using cryptocurrency.",
         img: "/nft-game.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "/car-slayer.vercel.app/",
+        link: "https://car-slayer.vercel.app/",
     },
     {
         id: 2,
@@ -84,7 +84,7 @@ export const projects = [
         des: "A decentralized application that allows users to mint NFTs using the Avalanche blockchain.",
         img: "/nft.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "/nft-minting-kappa.vercel.app/",
+        link: "https://nft-minting-kappa.vercel.app/",
     },
     {
         id: 3,
@@ -92,7 +92,7 @@ export const projects = [
         des: "A decentralized application that allows users to stake tokens and earn rewards on the Polygon blockchain.",
         img: "/stakify.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "/stakify-rose.vercel.app/",
+        link: "https://stakify-rose.vercel.app/",
     },
     {
         id: 4,
@@ -100,7 +100,7 @@ export const projects = [
         des: "A web application that uses AI to summarize articles and text from different blogs.",
         img: "/summarizer.png",
         iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "/ai-summarizer-sumz.netlify.app/",
+        link: "https://ai-summarizer-sumz.netlify.app/",
     },
 ];
 

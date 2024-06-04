@@ -5,7 +5,7 @@ import { FaLocationArrow } from 'react-icons/fa';
 
 const RecentProjects = () => {
     return (
-        <div className='py-20' id='projects'>
+        <div className='py-10' id='projects'>
             <h1 className='heading'>
                 A small selection of {' '}
                 <span className='text-purple'>
@@ -31,19 +31,11 @@ const RecentProjects = () => {
                                 {des}
                             </p>
 
-                            <div className='flex items-center justify-between mt-7 mb-3'>
-                                <div className='flex items-center'>
-                                    {iconLists.map((icon, index) => (
-                                        <div key={icon} className='rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center' style={{
-                                            transform: `translateX(-${5 * index * 2}px)`
-                                        }}>
-                                            <img src={icon} alt={icon} />
-                                        </div>
-                                    ))}
-                                </div>
-
+                            <div className='mt-7 mb-3'>
                                 <div className='flex justify-center items-center'>
-                                    <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Check Live Site</p>
+                                    <p className='flex lg:text-xl md:text-xs text-sm text-purple'>
+                                        <a href={link} target='_blank' rel='noreferrer noopener'>Check Live Site</a>
+                                    </p>
                                     <FaLocationArrow className='ms-3' color='#CBACF9' />
                                 </div>
                             </div>
