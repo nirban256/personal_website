@@ -87,3 +87,33 @@
     background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
   }
 }
+
+/* Apply styles to the scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Thin scrollbar width */
+  height: 8px; /* Thin scrollbar height (horizontal scrollbar) */
+}
+
+/* Style the track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #06091f; /* A solid fallback background color */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Style the thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #161a31 0%, #06091f 100%);
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Add hover effect for better interaction */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(90deg, #161a31 0%, #2e3458 100%);
+}
+
+/* Style the scrollbar corner (intersection of horizontal and vertical scrollbars, if any) */
+::-webkit-scrollbar-corner {
+  background: #06091f; /* Match the track's background */
+}
+
+
