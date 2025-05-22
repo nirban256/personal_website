@@ -72,24 +72,24 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
+        title: "AI Expense Tracker",
+        des: "A web application for tracking personal finance with AI integration.",
+        img: "/expense.png",
+        link: "https://expense-tracker-phi-wine.vercel.app/",
+    },
+    {
+        id: 2,
         title: "Klimatee - weather app",
         des: "A web application that shows weather of different locations including your current location",
         img: "/klimatee.png",
         link: "https://klimatee.vercel.app/",
     },
     {
-        id: 2,
+        id: 3,
         title: "Car Slayer",
         des: "A blockchain-based NFT game where players can buy, sell, and trade car NFTs using cryptocurrency.",
         img: "/nft-game.png",
         link: "https://car-slayer.vercel.app/",
-    },
-    {
-        id: 3,
-        title: "NFT minting Dapp",
-        des: "A decentralized application that allows users to mint NFTs using the Avalanche blockchain.",
-        img: "/nft.png",
-        link: "https://nft-minting-kappa.vercel.app/",
     },
     {
         id: 4,
